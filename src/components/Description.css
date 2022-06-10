@@ -1,0 +1,125 @@
+
+.smart-meter{
+  background: #fff;
+}
+.smart-heading{
+  display: flex;
+  width: 200px;
+  margin: auto;
+}
+.smart-heading > b{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.Description{
+  display: flex;
+  height: 120vh;
+  background: #000;
+}
+.gap{
+  height: 100vh;
+}
+.Description > img{
+  width: 50%;
+  height: 70%;
+  ;
+}
+.description-body{
+  padding: 20px;
+}
+.Description-text > hr{
+  color: #fff;
+  margin-top: 20px;
+  width: 5cm;
+}
+.Description-text > h3{
+  color: #fff;
+  margin-left: 15px;
+  font-size: 24px;
+  padding-top: 5px;
+}
+.Description-text > p{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 5px;
+
+}
+.horizontal-components{
+  display: inline-grid;  
+grid-template-rows: auto auto ;  
+grid-template-columns: auto auto auto auto ;  
+grid-column-gap: 5px;  
+grid-row-gap: 5px;    
+padding: 5px; 
+  
+}
+.horizontal-content > img{
+ margin-left: 50px;
+ margin-bottom: 15px;
+ 
+}
+
+.horizontal-content > h3{
+  color: #fff;
+  font-size: 24px;
+}
+.description-button{
+display: flex;
+padding: 20px;
+margin-right: 50px;
+}
+.description-btn{
+  padding: 20px;
+  padding-left: 100px;
+margin-bottom:2px;
+}
+.hover:hover{
+ color:red
+}.hover{
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 20px;
+  color: #fff;
+}
+@media  screen and (max-width: 800px) {
+  
+  .Description{
+  display: block;
+    height: 200vh;
+    background: #000;
+  }
+  
+  .Description > img{
+    width: 300px;
+    margin: auto;
+    height: 30%;
+    margin-left: 20%;
+    justify-content: center;
+  }
+  .horizontal-components{
+    display: inline-grid;  
+  grid-template-rows: auto auto ;  
+  grid-template-columns: auto auto ;  
+  grid-column-gap: 5px;  
+  grid-row-gap: 5px;    
+  padding: 5px; 
+    
+  }
+  .horizontal-content > h3{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+  }
+  .description-button{
+    display: block;
+    padding: 20px;
+    margin-right: 50px;
+    }
+    .description-btn{
+      padding: 20px;
+      padding-left: 100px;
+    margin-bottom:2px;
+    }
+    
+}

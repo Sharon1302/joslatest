@@ -1,0 +1,222 @@
+.context{
+    background: #f8f8f8;
+}
+
+.slider{
+    width: 50;
+    height: 80vh;
+    color: black;
+    position:relative;
+    overflow: hidden;
+   
+}
+.content_text{
+    color: #000;
+}
+
+.slide-img{
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+@media  screen and (max-width: 800px) {
+    .slide img{
+        position: absolute;
+        width: 100%;
+        height: 100%
+    }
+    .slider{
+        width: 50;
+        height: 120vh;
+        color: black;
+        position:relative;
+        overflow: hidden;
+       
+    }
+    
+    
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    top:0;
+    left: 10rem;
+    bottom: 20rem;
+    /* width: 40%; */
+    width: 80%;
+    pad: 2rem;
+    font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    animation: slide-up 1s ease .5s;
+    animation-fill-mode: forwards; 
+     visibility: hidden;
+
+}
+.content>img{
+    width: 150%;
+    height: 250%;
+    margin-top: 20rem;
+    padding-left: 20%;
+}
+@keyframes slide-up {
+    0%{
+        visibility: visible;
+        top: 5rem;
+    }
+    100%{
+        visibility: visible;
+        top: 2rem;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+   .content{
+        position: absolute;
+        display: flex;
+        top:0;
+        left: 10rem;
+        bottom: 20rem;
+        /* width: 40%; */
+        width: 80%;
+        pad: 2rem;
+        font-size: 18px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+        animation: slide-up 1s ease .5s;
+        animation-fill-mode: forwards; 
+         visibility: hidden;
+    
+    }
+    .content>img{
+        width: 100%;
+        height: 100%;
+        margin-top: 20rem;
+        padding-left: 20%;
+    } 
+   }  
+ 
+
+.content > *{
+    color: ffff;
+margin-bottom: 1rem;
+}
+.current{
+    opacity: 1;
+    transform: translateX(0)
+}
+.current.content{
+    opacity: 1;
+
+}
+.arrow{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    top:35%;
+    background-color: transparent;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 999;
+
+}
+.arrow:hover{
+    background: #fff;
+    color: #777;
+
+}
+.next{
+    
+    right: 1.5rem;
+}
+.prev{
+    
+    left: 1.5rem;
+}
+hr{
+    height: 2px;
+    background: #fff;
+    width: 50%;
+}
+.--btn--btn-primary{
+    background: red;
+    color: #fff;
+    margin: 1%;
+    padding: 1%;
+}
+.slidebutton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding: auto;
+}
+@media only screen and (max-width: 1024px) {
+    .slidebutton {
+        padding: 20px;
+      margin-bottom: 5rem;
+      display: contents;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .butonone {
+        padding: 20px;
+        padding-left: 100px;
+      margin-bottom:2px;
+     
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .butontwo {
+        padding: 20px;
+        padding-left: 100px;
+      margin-bottom:2px;
+     
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .butonthird {
+        padding: 20px;
+        padding-left: 100px;
+      margin-bottom:2px;
+     
+    }
+}
+
+.butonone{
+    padding-left: 100px;
+}
+.butontwo{
+    padding-left: 100px;
+}
+.butonthird{
+    padding-left: 100px;
+}
+.content_text{
+    color: #000;
+    
+}
+.textone{
+    color:#000;
+    text-align: center;
+    font-size: 60px;
+    padding-right: 20%;
+    padding-left:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    color:#000
+}
+p{
+    color: #000;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}

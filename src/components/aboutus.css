@@ -1,0 +1,28 @@
+.background {
+    background: #b2beb5;
+    padding: 100px;
+    display: flex
+}
+b{
+    font-size: 40px;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    
+  }
+  .contenttwo{
+      padding: 30px;
+      width: 550px;
+  }
+  .contentone{
+    width: 550px;
+    padding: 20px; 
+  }
+  .contentone > img{
+   width: 200px; 
+   margin: auto;
+  }
+  p{
+      font-size: 18px;
+      color: #fff;
+  }
