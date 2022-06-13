@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src ="https://aff-iot-static-assets.s3.eu-west-2.amazonaws.com/Josla+icon.png" alt="slide"/>
+          <img src ="/josla+icon.png" alt="slide"/>
            
           </Link>
           <div className='menu-icon' onClick={handleClick}>
